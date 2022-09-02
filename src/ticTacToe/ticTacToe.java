@@ -12,15 +12,15 @@ public class ticTacToe {
 	static boolean invalidInput = true;
 	static String gameBoard = "";
 	static String startBoard = new String("_____________" + "\n" +
-			   							  "|   |   |   |" + "\n" +
-			   							  "| 1 | 2 | 3 |" + "\n" +
-			   							  "|___|___|___|" + "\n" +
-			   							  "|   |   |   |" + "\n" +
-			   							  "| 4 | 5 | 6 |" + "\n" +
-			   							  "|___|___|___|" + "\n" +
-			   							  "|   |   |   |" + "\n" +
-			   							  "| 7 | 8 | 9 |" + "\n" +
-			   							  "|___|___|___|" + "\n");
+			   		      "|   |   |   |" + "\n" +
+			   		      "| 1 | 2 | 3 |" + "\n" +
+			   		      "|___|___|___|" + "\n" +
+			   		      "|   |   |   |" + "\n" +
+			   		      "| 4 | 5 | 6 |" + "\n" +
+			   		      "|___|___|___|" + "\n" +
+			   		      "|   |   |   |" + "\n" +
+			   		      "| 7 | 8 | 9 |" + "\n" +
+			   		      "|___|___|___|" + "\n");
 
 	public static void main(String[] args) {
 	Scanner playerInput = new Scanner(System.in);
